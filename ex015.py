@@ -1,0 +1,6 @@
+k = float(input(('Informe a quantidade de KM percorridos: KM ')))
+d = int(input('Informe a quantidade de dias que você ficou com o veiculo: '))
+print(50*'-')
+print('A diaria do seu veiculo custa R$60,00 e o preço por Km rodado é R$0,15.')
+print('O valor que você pagara por dia é R${}.\nO valor que você pagara por Km rodado é R${}.\nO valor total será R${} '.format((d*60), k*0.15, (d*60)+(k*0.15)))
+print(50*'-')

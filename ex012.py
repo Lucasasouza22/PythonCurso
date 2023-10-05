@@ -1,0 +1,2 @@
+n1 = float(input('Digite o preço do produto atual R$'))
+print('O produto x que possui um valor atual de {}, passará a ter um desconto de 5% e tera um valor atualizado de R${:.2f}.'.format(n1, n1-(n1*0.05)))
